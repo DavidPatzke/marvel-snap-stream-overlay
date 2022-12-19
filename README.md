@@ -1,4 +1,5 @@
-# marvel-snap-stream-overlay
+# MARVEL SNAP Stream Overlay (OBS)
+
 Small and simple node script that automatically displays the currently used deck on a web page during gameplay.
 
 It uses game card images from https://marvelsnapzone.com/ 
@@ -10,3 +11,6 @@ This is currently a pure self used project so there a no convenience function at
 For example :
 * Bundle this to a .exe with an UI
 * Make the state-directory from Snap and the used port configurable
+
+
+https://www.marvelsnap.com/
