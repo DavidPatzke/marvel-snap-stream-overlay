@@ -1,5 +1,7 @@
 # marvel-snap-stream-overlay
-Small and simple node script that automatically displays the currently used deck on a web page during gameplay
+Small and simple node script that automatically displays the currently used deck on a web page during gameplay.
+
+It uses game card images from https://marvelsnapzone.com/ 
 
 Simple run the index.js file in the root directory and add a browser source with the url http://localhost:30000/overlay.html.
 
