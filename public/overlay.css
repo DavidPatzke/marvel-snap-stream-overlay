@@ -1,0 +1,38 @@
+.card {
+    height: 240px;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+#deck{
+    
+    justify-content: center;
+  
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'BentonSans ExtraComp Black Regular', sans-serif;
+    
+}   
+
+.center {
+    width: 750px;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

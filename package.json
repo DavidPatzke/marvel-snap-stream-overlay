@@ -1,0 +1,14 @@
+{
+  "name": "snap-overlay",
+  "version": "1.0.0",
+  "description": "Streaming Overlay for Marvel Snap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Patzke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
