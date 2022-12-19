@@ -2,15 +2,24 @@ const express = require('express')
 const fs = require('fs');
 const { get } = require('http');
 const {join} = require('path'); 
+const { isNumberObject } = require('util/types');
 const app = express()
-const port = 30000
+let port = 30000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+
+
+const arguments = Object.fromEntries(process.argv.slice(2).map(arg => arg.split('=' )));
+
+if(arguments.port || Number.isInteger(arguments.port)){
+  port = arguments.port
+}
+
+
+
+
 app.use(express.static('public'))
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`MARVEL SNAP Decklist Overlay running on port ${port}`)
 })
 
 function getPath(fileToWatch){
